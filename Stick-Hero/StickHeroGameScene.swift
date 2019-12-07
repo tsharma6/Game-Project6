@@ -485,7 +485,7 @@ private extension StickHeroGameScene {
         node.addChild(highScore)
     }
     
-    //MARK: - Action
+    
     func starEmitterActionAtPosition(_ position: CGPoint) -> SKAction {
         let emitter = SKEmitterNode(fileNamed: "StarExplosion")
         emitter?.position = position
